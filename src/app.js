@@ -32,7 +32,7 @@ function init() {
     // collada
 
     const loader = new ColladaLoader(loadingManager);
-    loader.load('./boxes.dae', function (collada) {
+    loader.load('./models/boxes.dae', function (collada) {
 
         elf = collada.scene;
 
